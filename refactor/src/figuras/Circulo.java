@@ -1,4 +1,4 @@
-package utilidades;
+package figuras;
 
 public class Circulo {
 	private double rad;
@@ -20,7 +20,7 @@ public class Circulo {
 	public boolean esIgual (Circulo otro, boolean conDecimales)
 	{
 	        double radio1 = this.rad;
-	        double radio2 = otro.getRad();
+	        double radio2 = otro.rad;
 	        if (conDecimales)
 	        {
 	            if (radio1 == radio2) 
