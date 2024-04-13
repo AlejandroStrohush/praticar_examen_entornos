@@ -1,5 +1,9 @@
 package figuras;
 
+/**
+ * @author Adolfo
+ * @version 0.0.0.1
+ */
 public class Circulo {
 	private double rad;
 
@@ -7,7 +11,7 @@ public class Circulo {
 	    	{
 	        this.rad = radio;
 	}
-
+		
 	    	public void imprimir()
 	    	{
 	        String color = "rojo";
@@ -17,6 +21,12 @@ public class Circulo {
 	        System.out.println(area);
 	}
 
+	    	/**
+	    	 * @param otro
+	    	 * @param conDecimales
+	    	 * @deprecated ya no vale, se está trabajando en su versión nueva
+	    	 * @return
+	    	 */
 	public boolean esIgual (Circulo otro, boolean conDecimales)
 	{
 	        double radio1 = this.rad;

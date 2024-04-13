@@ -1,5 +1,10 @@
 package figuras;
 
+/**
+ * @author TuMadre
+ * @version 0.2
+ */
+
 public class Test {
     public static void main(String[] args)
 {
