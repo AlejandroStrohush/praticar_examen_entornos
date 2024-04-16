@@ -1,0 +1,41 @@
+PASOS PARA CREAR Y ACTUALIZAR REPOSITORIOS EN GITHUB.
+
+1. Creamos el repositorio (Siempre en público) y copiamos el enlace que nos sale.
+2. Abrimos el cmd y ponemos y entramos con "cd" en el directorio donde queremos trabajar (ej: Escritorio).
+3. Usamos "git clone + el enlace de github", esto hace que se genere la carpeta del repositorio en nuestro equipo.
+4. Metemos el archivo que queramos meter en el github en la carpeta creada.
+5. Con "git status" vemos el estado del repositorio.EN ROJO lo que esta en la carpeta pero no esta listo,
+EN VERDE lo que esta listo para subir al github (Lo añadido con "git add").
+6. En el cmd hacemos "git add + nombre del archivo".
+7. Con (git commit -m "comentario") modificamos el arcchivo y añadimos un comentario.
+8. Con el comando "git push -u origin main/master" confirmamos los cambios finalmente.
+
+COMANDOS ADICIONALES:
+
+	- con "git branch" Te muestra en que rama estás.
+	- Para identificarte en el cmd: "git config user.email + email(Entrecomillasdobles"")" 
+	- Para identificarte en el cmd: "git config user.name + nombre(Entrecomillasdobles"")"
+	- Con "git remote add origin + "EnlaceDelRepositorio"" crea el remote origin.
+
+JAVADOC:
+
+1. Comentarios: Utilizamos /** ... */
+2. Etiquetas Javadoc: Utiliza etiquetas como @param, @return y @see dentro de los comentarios para describir parámetros, valores de retorno y referencias.
+3. Generación del Javadoc: Usa el comando javadoc junto con las opciones adecuadas para generar la documentación.
+4. Estructura de carpetas: Organiza tu código de manera que los archivos .java y el Javadoc estén en una estructura de carpetas clara.
+5. Publicación: Publica la documentación generada en un directorio accesible, como un servidor web o un repositorio en línea.
+
+	- Con el “/** + Enter” mete los @ automaticos.
+	- @autor el autor del proyecto.
+ 	- @version del proyecto.
+	- @deprecated: Esta etiqueta se utiliza para marcar un elemento (como una clase, método, campo, etc.) 
+	como obsoleto o desaconsejado. Indica que el elemento ha sido reemplazado por otro, o que su uso ya no se recomienda por alguna razón.
+	- @See  Puedes usar esta etiqueta para señalar a los usuarios hacia otras partes relevantes de la 
+	documentación para obtener más información relacionada.
+	- @Since: Esta etiqueta se utiliza para indicar desde qué versión de la API está disponible un elemento.
+
+
+	
+
+
+
